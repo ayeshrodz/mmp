@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>The HTML5 Herald</title>
+  </head>
+  <body>
+    <h1>Hello World</h1>
+    <p>These are the customer leads</p>
+    <ul>
+      {% for lead in leads %}
+      <li>{{lead}}</li>
+      {% endfor %}
+    </ul>
+  </body>
+</html>
