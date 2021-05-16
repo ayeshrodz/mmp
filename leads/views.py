@@ -1,7 +1,6 @@
 from django.shortcuts import render, redirect
-from django.http import HttpResponse
-from .models import Agent, CustomerLead
-from .forms import CustomerLeadForm, CustomerLeadModelForm
+from .models import CustomerLead
+from .forms import CustomerLeadModelForm
 
 
 def customer_lead_list(request):
